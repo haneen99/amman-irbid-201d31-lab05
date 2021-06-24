@@ -9,14 +9,20 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) {
-  //eslint-disable-line
+  let num1 =a;
+  let num2 =b;
+  let sum = num1+num2
+  let message ='The sum of 4 and 7 is 11.'
+  return [sum,message];
 }
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
 /////////////////////////////////////
+testSum();
+
+
 /* Problem 2
 Write a function called multiply() that takes in two numbers as arguments and returns an array where the first element is the product of those numbers, and the second element is a string that EXACTLY follows this example and uses the values that were input into the function:
 
