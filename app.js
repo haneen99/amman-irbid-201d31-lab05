@@ -118,16 +118,10 @@ function multiplyArray(multArr) {
   let multiply1 =multiply(multArr[0], multArr[1])[0];
   let multiply2 =multiply(multiply1,multArr[2])[0];
   let array2 = [multiply2, "The numbers 2,3,4 have a product of 24."];
-  return array2;
-//   let ay=multArr
-//   let a ='The numbers 2,3,4 have a product of 24.';
-//   sumAndMultiply(ay[0],ay[1],ay[2])[1];
-//   return[sumAndMultiply(ay[0],ay[1],ay[2])[1],a];
-//   //eslint-disable-line
-// }
+  return array2;}
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
