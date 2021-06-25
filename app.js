@@ -31,12 +31,16 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a, b) {
-  //eslint-disable-line
-}
+ function multiply(a, b) {
+// let num1 =a;
+// let num2 =b;
+// let sum =num1 * num2
+// let meesage ='The product of 5 and 9 is 45.'
+// return [product];
+// }
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -53,6 +57,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) {
+  // let one =a;
+  // let two =b;
+  // let three=c;
+  // let ele1 ='4 and 7 and 5 sum to 16.'
+  // let ele2 ='The product of 4 and 7 and 5 is 140.'
+  // let sum =one+two+three;
+  // let product=one*two*three;
+  // return[sum,product,ele1,ele2]
   //eslint-disable-line
 }
 
@@ -75,8 +87,13 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) {
-  //eslint-disable-line
-}
+//   let m=sumarr;
+//   console.log(m);
+//   let v ="2,3,4 was passed in as an array of numbers, and 9 is their sum."
+//   sumAndMultiply(m[0],m[1],m[2])[0]
+//   return [sumAndMultiply(m[0],m[1],m[2])[0],v]
+//   //eslint-disable-line
+// }
 
 // Here is the test for sumArray(); uncomment it to run it
 
@@ -96,8 +113,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) {
-  //eslint-disable-line
-}
+//   let ay=multArr
+//   let a ='The numbers 2,3,4 have a product of 24.';
+//   sumAndMultiply(ay[0],ay[1],ay[2])[1];
+//   return[sumAndMultiply(ay[0],ay[1],ay[2])[1],a];
+//   //eslint-disable-line
+// }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyArray(testArray);
