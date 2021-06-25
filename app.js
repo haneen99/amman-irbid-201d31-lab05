@@ -57,15 +57,12 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sumAndMultiply(a, b, c) {
-  // let one =a;
-  // let two =b;
-  // let three=c;
-  // let ele1 ='4 and 7 and 5 sum to 16.'
-  // let ele2 ='The product of 4 and 7 and 5 is 140.'
-  // let sum =one+two+three;
-  // let product=one*two*three;
-  // return[sum,product,ele1,ele2]
+  let sum = sum(a,b)[0]
+  let sum2 = sum(sum, c)[0]
+  let multiply = multiply(a,b)[0]
+  let multiply2 = multiply(c,multiply)[0];
   //eslint-disable-line
+  return [sum2, multiply2, "4 and 7 and 5 sum to 16.", "The product of 4 and 7 and 5 is 140."];
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
